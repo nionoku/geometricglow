@@ -2,6 +2,9 @@
   "name": "@threex/geometricglow",
   "version": "0.1.0",
   "main": "src/index.js",
+  "scripts": {
+    "start": "tsc"
+  },
   "keywords": [
     "three",
     "threex",
@@ -9,5 +12,8 @@
   ],
   "dependencies": {
     "three": "^0.124.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
   }
 }
