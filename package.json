@@ -1,0 +1,13 @@
+{
+  "name": "@threex/geometricglow",
+  "version": "0.1.0",
+  "main": "src/index.js",
+  "keywords": [
+    "three",
+    "threex",
+    "geometricglow"
+  ],
+  "dependencies": {
+    "three": "^0.124.0"
+  }
+}
