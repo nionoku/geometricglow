@@ -1,9 +1,7 @@
-import * as Three from 'three'
-
 /**
- * @param {Three.Geometry} geometry
+ * @param {import('three').Geometry} geometry
  * @param {Number} length
- * @returns {Three.Geometry}
+ * @returns {import('three').Geometry}
  */
 export function dilateGeometry (geometry, length) {
   const resultGeometry = geometry.clone()
